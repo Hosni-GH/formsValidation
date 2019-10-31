@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./form-style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="registration-form" name="myForm" class="formulaire-registration" >
+            <div>
+                <label for="fname">First name:</label>
+                <input type="text" name="firstname" placeholder="first name" id="fname">
+            </div>
+            <div>
+                <label for="lname">Last name:</label>
+                <input type="text" name="lastname" placeholder="last name" id="lname">
+            </div>
+            <div>
+                <label for="adress">Adress:</label>
+                <input type="text" name="adress" placeholder="Tunisia" id="adress">
+            </div>
+            <div>
+                <label for="email">Email Adress:</label>
+                <input type="text" name="email" placeholder="example@domain.com" id="email">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" placeholder="*****" id="password">
+            </div>
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea placeholder="Write your comments here..." id="comments" name="comments"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send" id="send">
+                <input type="reset" value="Reset" id="reset">
+            </div>
+        </form>
+
+    </div>
+</body>
+<script src="./form-validation.js"></script>
+</html>
